@@ -35,7 +35,7 @@ public class Sensor { //sensor have two properties name , value
     }
 
     @Override
-    public String toString() {
+    public String toString() {    //without tostring cannot get the output just right click and genarate tostring()
         return "Sensor{" +
                 "name='" + name + '\'' +
                 ", value=" + value +
